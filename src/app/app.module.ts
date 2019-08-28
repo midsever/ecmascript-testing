@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArrayFromComponent } from './Array/array-from/array-from.component';
+import { ArrayIsArrayComponent } from './Array/array-is-array/array-is-array.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArrayFromComponent,
+    ArrayIsArrayComponent,
   ],
   imports: [
     BrowserModule,

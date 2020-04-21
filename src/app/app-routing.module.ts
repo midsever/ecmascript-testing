@@ -6,8 +6,8 @@ import { ArrayFromComponent } from './Array/array-from/array-from.component';
 import { ArrayIsArrayComponent } from './Array/array-is-array/array-is-array.component';
 
 const routes: Routes = [
-  { path: 'ArrayFrom', component: ArrayFromComponent },
-  { path: 'ArrayIsArray', component: ArrayIsArrayComponent }
+  { path: 'Array/From', component: ArrayFromComponent },
+  { path: 'Array/IsArray', component: ArrayIsArrayComponent }
 ];
 
 @NgModule({
